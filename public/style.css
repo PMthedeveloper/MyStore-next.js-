@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 200px;
+    height: 300px;
+}
+
+.scard{
+    margin: 10px auto !important;
+    max-width: 500px !important;
+    padding: 15px;
+}
+
+@media(min-width:600px) {
+    .rootCard {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .pcard {
+        max-width: 40%;
+        margin: 20px;
+    }
+    img {
+        width: 200px;
+        height: 200px;
+    }
+}
